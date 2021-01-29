@@ -1,0 +1,150 @@
+.title-img{
+    position: relative;
+    bottom: 15px;
+    height: 100px;
+    width: 140px;
+}
+
+.nav {
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    padding-top: 45px;
+    /* padding-bottom: 10px; */
+}
+
+
+.about-SAE{
+    padding-left: 40px;
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.about-SAEindia{
+    padding-top: 30px;
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.fa-college{
+    position: relative;
+    background-image: url("../images/logos/COLLEGE-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+
+.fa-facility{
+    position: relative;
+    background-image: url("../images/logos/FACILITY-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-baja{
+    position: relative;
+    background-image: url("../images/logos/BAJA-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-ebaja{
+    position: relative;
+    background-image: url("../images/logos/EBAJA-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+
+.fa-tdc{
+    position: relative;
+    background-image: url("../images/logos/TDC-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-bdc{
+    position: relative;
+    background-image: url("../images/logos/BDC-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-adc{
+    position: relative;
+    background-image: url("../images/logos/ADC-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-ewtdc{
+    position: relative;
+    background-image: url("../images/logos/ETWDC-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-supra{
+    position: relative;
+    background-image: url("../images/logos/SUPRA-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.fa-convention{
+    position: relative;
+    background-image: url("../images/logos/CONVENTION-01.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-position: center;
+}
+.logos{
+    width: 25px;
+    height: 25px;
+}
+
+.modal-heading{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.modal-img{
+    padding-top: 10px;
+    padding-right: 50px;
+    width: 40vw;
+    height: 40vh;
+}
+
+
+.gallery-title,.team-title{
+    padding-bottom: 50px;
+}
+
+.comp-logos{
+    height: 70px;
+    width:  70px;
+}
+
+.team-img{
+    height: 10vh;
+    width: 10vw;
+}
+
+.gallery-btn{
+    position: relative;
+    top: 40px;
+    left: 35vw;
+}
+
+.gallery-btn:hover{
+    border:none;
+    
+    color: black;
+}
+
+
+.footer-ul{
+    padding-left: 32vw;
+}
