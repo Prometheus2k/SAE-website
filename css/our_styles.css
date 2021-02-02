@@ -134,7 +134,7 @@
 
 .gallery-btn{
     position: relative;
-    top: 40px;
+    top: 50px;
     left: 35vw;
 }
 
@@ -147,4 +147,31 @@
 
 .footer-ul{
     padding-left: 32vw;
+}
+.button {
+    background-color: #28ABE3; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button2 {
+    background-color: white; 
+    color: #28ABE3; 
+    border: 2px solid #28ABE3;
+}
+  
+.button2:hover {
+    background-color: #28ABE3;
+    color: white;
+}
+.social{
+    padding-left: 4px;
 }
