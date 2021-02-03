@@ -1776,11 +1776,11 @@ iframe {
 /**** Start Color Switcher ****/
 
 .colors-switcher {
-  width: 100px;
+  width: 35%;
   padding: 20px 18px 14px 20px;
   position: fixed;
-  z-index: 1993;
-  top: 90px;
+  z-index: 3;
+  top: 130px;
   right: 0;
   background-color: #fff;
   border-radius: 2px 0 0 2px;
@@ -1792,7 +1792,7 @@ iframe {
   transition: all 0.4s ease-in-out;
 }
 .colors-switcher > p {
-  font-size: 11px;
+  font-size: 15px;
   line-height: 0;
 }
 .colors-switcher #show-panel {

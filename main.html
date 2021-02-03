@@ -41,10 +41,16 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     
     
+    
+    
     <!-- Modernizer js -->
     <script src="js/modernizr.custom.js"></script>
 
-    
+    <!-- <script>
+        $(function(){
+            $('#siteloader').load('https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html');
+        });
+    </script> -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -54,7 +60,21 @@
 
 <body class="index">
     
- 
+       <!-- Styleswitcher
+================================================== -->
+        <div class="colors-switcher">
+            <a id="show-panel" class="hide-panel"><i class="fa fa-tint"></i></a>        
+            <div>
+                <marquee width="100%" direction="right">
+                    <p class="notif-p">An event is scheduled on tommorow.Interested students register.</p>       
+                </marquee>
+                <button class="button button2">Register</button>
+                
+              </div>
+
+        </div>  
+<!-- Styleswitcher End
+================================================== -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -83,7 +103,7 @@
                         <a class="page-scroll" href="#about-us">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="vertical-timeline\index.html">Events</a>
+                        <a class="page-scroll" href="#events">Events</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Gallery</a>
@@ -91,6 +111,9 @@
                     
                     <li>
                         <a class="page-scroll" href="#competition">Competitions</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#achievements">Achievements</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Execom</a>
@@ -103,7 +126,7 @@
                         <a class="page-scroll" href="#membership">Membership</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#achievements">Achievements</a>
+                        <a class="page-scroll" href="#testimonials">Testimonials</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -307,7 +330,7 @@
                   <div class="section-title text-center"> 
                     <h3 class="modal-heading">GEC Thrissur</h3>
                     <div class="col-md-5">
-                        <img src="images/logos/gec thrissur.jpg" class="modal-img img-responsive" alt="..">
+                        <img src="images/logos/gec thrissur.jpg" class="modal-img1 img-responsive" alt="..">
                     </div>
                     <div class="col-md-7">
                             <p>Government Engineering College, Thrissur was established in 1957 and is one of the premier colleges in Kerala and currently has an MHRD National Institutional
@@ -336,7 +359,7 @@
                   <div class="section-title text-center"> 
                     <h3 class="modal-heading">Facilities</h3>
                     <div class="col-md-5">
-                        <img src="images/logos/facilities.jpg" class="modal-img img-responsive" alt="..">
+                        <img src="images/logos/facilities-1.jpg" class="modal-img2 img-responsive" alt="..">
                     </div>
                     <div class="col-md-7">
                             <p>The college boasts of several facilities and equipment that include a Robotics lab, FABLAB,
@@ -348,6 +371,16 @@
                     </div>
                     
                 </div><!-- /.row -->
+                <div class="row">
+                      <div class="col-md-5">
+                          <img src="images/logos/facilities-4.jpg" class="modal-img2 img-responsive" alt="..">
+                      </div>
+                      <div class="col-md-7">
+                        <img src="images/logos/facilities-3.jpg" class="modal-img2 img-responsive" alt="..">
+                        </div>
+                      </div>
+                      
+                  </div>
             </div>                
         </div>
     </div>
@@ -357,15 +390,13 @@
     
     
     <!-- Start Call to Action Section -->
-    <!-- <section class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>advcadvvvvvvvvvvvvv</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    <section id = "events">
+            <iframe src="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html"scrolling="no" width="100%" height="2500px" frameborder="0"></iframe>
+            <!-- <div> 
+                <object type="text/html" data="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html" width="100%" height="180px">
+                </object>
+             </div>   -->
+    </section>
     <!-- End Call to Action Section -->
     
     
