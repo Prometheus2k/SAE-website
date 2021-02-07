@@ -8,6 +8,7 @@
 .notif-p{
     font-size: 14px;
     line-height: 2;
+    color: #666;
 }
 
 .notif-btn{
@@ -189,12 +190,24 @@
   }
 
 .button2 {
-    background-color: white; 
-    color: #28ABE3; 
-    border: 2px solid #28ABE3;
+    background-color: Transparent;
+    color: #666; 
+    border: 1px solid #666;
 }
   
 .button2:hover {
+    border:1px solid #28ABE3;
+    background-color: #28ABE3;
+    color: white;
+}
+.button3 {
+    background-color :rgba(0, 0, 0, 0.5);
+    color: 1px solid; 
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+  
+.button3:hover {
+    border:1px solid #28ABE3;
     background-color: #28ABE3;
     color: white;
 }
@@ -202,3 +215,16 @@
     padding-left: 4px;
 }
 
+
+.achieve-img{
+    height: 250px;
+}
+.desc{
+    padding-top: 40px;
+}
+.achieve-p{
+    color: #999;
+}
+.achieve-desc{
+    color: #666;
+}
