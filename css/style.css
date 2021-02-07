@@ -132,7 +132,7 @@ li {
   font-weight: 400;
   letter-spacing: 1px;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -1813,9 +1813,9 @@ iframe {
 }
 .colors-switcher #show-panel i {
   color: #3d3d3d;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 38px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .colors-switcher .colors-list {
   margin: 0;

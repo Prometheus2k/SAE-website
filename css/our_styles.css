@@ -9,12 +9,27 @@
     font-size: 14px;
     line-height: 2;
 }
+
+.notif-btn{
+    background-color: #28ABE3; 
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 .nav {
     position: relative;
     left: 100px;
     bottom: 30px;
-    /* padding-top: 5px; */
-    /* padding-bottom: 10px; */
+    padding-top: 45px;
+    padding-bottom: 5px;
 }
 
 
