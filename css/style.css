@@ -586,7 +586,8 @@ li {
   letter-spacing: 5px;
   margin-bottom: 55px;
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Righteous', cursive;
+  /* font-family: "Oswald", sans-serif; */
 }
 
 #main-slide .slider-content h2.white,
@@ -649,6 +650,7 @@ li {
 .carousel .item.active .animated1 {
   -webkit-animation: lightSpeedIn 1s ease-in 800ms both;
   animation: lightSpeedIn 1s ease-in 800ms both;
+  
 }
 
 .carousel .item.active .animated2 {
