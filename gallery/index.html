@@ -1,246 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>SAE | Gallery</title>
-    <link rel="icon" type="image/png" href="../images/logos/sae.png"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
 
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">  
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="Font-Awesome-4.7/css/font-awesome.min.css">                
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                 
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   
+    <script src="js/jquery-1.11.3.min.js"></script>
+        
 </head>
-<body>
-    <!-- Page Loader -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+    <body>
+        
+        <!-- Content -->
+        <div class="cd-hero">
 
-    </div>
-   
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
-        <form class="d-flex tm-search-form">
+            <!-- Navigation -->        
+            <div class="cd-slider-nav">
+                <nav class="navbar">
+                    <div class="tm-navbar-bg">
+                        <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-picture-o tm-brand-icon"></i>Gallery</a>
+                          <ul class="nav navbar-nav">
+                                <li class="nav-item ">
+                                    <a onclick="history.back()" class="nav-link" data-no="1">Home<span class="sr-only">(current)</span></a>
+                                </li>                                
+                         </ul>
+                   </div>
+
+                </nav>
+            </div> 
+
+            <ul class="cd-hero-slider">
+
+                <!-- Page 1 Gallery One -->
+                <li class="selected">                    
+                    <div class="cd-full-width">
+                        <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                            <div class="tm-img-gallery-container">
+                                <div class="tm-img-gallery gallery-one">
+                                <!-- Gallery One pop up connected with JS code below -->
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
+                                                <a href="img/tm-img-01.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                                                <a href="img/tm-img-02.jpg">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Three</strong></span></h2>
+                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="img/tm-img-03.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Four</strong></span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-04.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div> 
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
+                                                <a href="img/tm-img-01.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                                                <a href="img/tm-img-02.jpg">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Three</strong></span></h2>
+                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="img/tm-img-03.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Four</strong></span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-04.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
+                                                <a href="img/tm-img-01.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                                                <a href="img/tm-img-02.jpg">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Three</strong></span></h2>
+                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="img/tm-img-03.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Four</strong></span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-04.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>  
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
+                                                <a href="img/tm-img-01.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                                                <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                                                <a href="img/tm-img-02.jpg">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-03-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Three</strong></span></h2>
+                                                <p class="tm-figure-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="img/tm-img-03.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>
+                                    <div class="grid-item">
+                                        <figure class="effect-sadie">
+                                            <img src="img/tm-img-04-tn.jpg" alt="Image" class="img-fluid tm-img">
+                                            <figcaption>
+                                                <h2 class="tm-figure-title">Image <span><strong>Four</strong></span></h2>
+                                                <p class="tm-figure-description">Maecenas purus sem, lobortis id odio in sapien.</p>
+                                                <a href="img/tm-img-04.jpg">View more</a>
+                                            </figcaption>           
+                                        </figure>
+                                    </div>   
+                                                                                    
+                                </div>                                 
+                            </div>
+                        </div>                                                    
+                    </div>                    
+                </li>
+               
+            </ul> <!-- .cd-hero-slider -->
             
-        </form>
-    </div>
-
-    <div class="container-fluid tm-container-content tm-mt-60">
-        <div class="row mb-4">
-            <h2 class="gallery-title col-6 tm-text-primary">
-                Gallery
-            </h2>
-            <div class="col-6 d-flex justify-content-end align-items-center">
-                <form action="" class="tm-text-primary">
-                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 10
-                </form>
-            </div>
-        </div>
-        <div class="row tm-mb-90 tm-gallery">
-        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
+            <footer class="tm-footer">
             
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
+                <div class="tm-social-icons-container text-xs-center">
+                    <a href="https://www.facebook.com/sae.gecthrissur.3"class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/saegect/" class="tm-social-link"><i class="fa fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/sae-gect-chapter-2abbb31a0" class="tm-social-link"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCug85ysBOqSZsVIH_cgpkDw" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+              </div>
                 
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
                 
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class=" tm-video-item">
-                    <div class="img-hover-zoom img-hover-zoom--xyz">
-                        <img src="img/img-13.jpg" alt="Image" class="img-fluid">
-                      </div>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">18 Oct 2020</span>
-                
-                </div>
-            </div>         
-        </div> <!-- row -->
-        <div class="row tm-mb-90">
-            <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
-                <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
-                <div class="tm-paging d-flex">
-                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">2</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">3</a>
-                    <a href="javascript:void(0);" class="tm-paging-link">4</a>
-                </div>
-                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Next Page</a>
-            </div>            
-        </div>
-    </div> <!-- container-fluid, tm-container-content -->
 
-    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
-        <div class="footer-div container-fluid tm-container-small">
+            </footer>
+                    
+        </div> <!-- .cd-hero -->
+        
+
+        <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+        <div id="loader-wrapper">
             
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
         </div>
-    </footer>
-    
-    <script src="js/plugins.js"></script>
-    <script>
-        $(window).on("load", function() {
-            $('body').addClass('loaded');
-        });
-    </script>
+        
+        <!-- load JS files -->
+        
+        <script src="js/tether.min.js"></script> <!-- Tether (http://tether.io/)  --> 
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+        <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        
+        <script>
+
+            function adjustHeightOfPage(pageNo) {
+
+                var pageContentHeight = 0;
+
+                var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+
+                if( pageType != undefined && pageType == "gallery") {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
+                }
+                else {
+                    pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 20;
+                }
+               
+                // Get the page height
+                var totalPageHeight = $('.cd-slider-nav').height()
+                                        + pageContentHeight
+                                        + $('.tm-footer').outerHeight();
+
+                // Adjust layout based on page height and window height
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+            }
+
+            
+            $(window).load(function(){
+
+                adjustHeightOfPage(1); // Adjust page height
+
+                /* Gallery One pop up
+                -----------------------------------------*/
+                $('.gallery-one').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+				
+			
+                
+                /* Browser resized 
+                -----------------------------------------*/
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    
+                    // wait 3 seconds
+                    setTimeout(function() {
+                        adjustHeightOfPage( currentPageNo );
+                    }, 1000);
+                    
+                });
+        
+                // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
+                $('body').addClass('loaded');
+
+                // Write current year in copyright text.
+                $(".tm-copyright-year").text(new Date().getFullYear());
+                           
+            });
+
+           
+
+        </script>            
+
 </body>
 </html>

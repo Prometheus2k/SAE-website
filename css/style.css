@@ -883,7 +883,7 @@ li {
   width: 50%;
   margin-left: -4px;
   margin-bottom: -5px;
-  padding: 20px;
+  /* padding: 0px; */
   text-align: center;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
