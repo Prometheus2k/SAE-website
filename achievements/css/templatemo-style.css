@@ -724,18 +724,3 @@ figure.effect-sadie:hover p {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
 	#google-map { height: 520px; }
 }
-
-
-.img-hover-zoom {
-
-	overflow: hidden; 
-  }
-  
-  .img-hover-zoom img {
-	transition: transform .3s ease-in;
-  }
-  
-  
-  .img-hover-zoom:hover img {
-	transform: scale(1.3);
-  }
