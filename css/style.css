@@ -132,7 +132,7 @@ li {
   font-weight: 400;
   letter-spacing: 1px;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -145,7 +145,7 @@ li {
   color: #fff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar-default {
     padding: 25px 0;
     border: 0;

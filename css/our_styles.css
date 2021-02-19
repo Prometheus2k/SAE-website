@@ -27,14 +27,19 @@
 
 .nav {
     position: relative;
-    left: 100px;
+    left: 5vw;
     bottom: 30px;
     padding-top: 45px;
-    padding-bottom: 5px;
+    padding-right: 20px;
+    /* padding-bottom: 5px; */
+    
 }
 
 
+
+
 .about-SAE{
+    padding-top: 10px;
     padding-left: 40px;
     font-size: 15px;
     line-height: 2;
@@ -42,7 +47,7 @@
 }
 
 .about-SAEindia{
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 15px;
     line-height: 2;
     text-align: justify;
