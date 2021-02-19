@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/our_styles.css">
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/fix.css" rel="stylesheet">
     
 
     
@@ -62,10 +63,10 @@
     
        <!-- Styleswitcher
 ================================================== -->
-        <div class="colors-switcher">
+        <div class="colors-switcher" style="z-index: 50;">
             <a id="show-panel" class="hide-panel"><i class=" fa fa-bell"></i></a>        
             <div>
-                <marquee width="100%" direction="right">
+                <marquee width="100%" direction="left">
                     <p class="notif-p">An event is scheduled on tommorow.Interested students register.</p>       
                 </marquee>
                 <button class="notif-btn button2">Register</button>
@@ -77,22 +78,22 @@
 ================================================== -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" style="z-index: 40;">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" style="margin-top: 25px;" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img class="title-img"src="images/logos/sae.png" alt="SAE"></a>
+                <a id="title-logo" class="navbar-brand page-scroll" href="#page-top"><img class="title-img"src="images/logos/sae.png" alt="SAE"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" id="menu-nav">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -1389,8 +1390,8 @@
                 <div class="row">
                     
                     <div class="col-md-12 col-xs-12">
-                        <div class="footer-social">
-                            <ul class="footer-ul">
+                        <div class="footer-social" style="text-align: center;">
+                            <ul class="footer-ul" style="padding: 0px;">
                                 <li><a href="https://www.instagram.com/saegect/"><i class="social fa fa-instagram"></i></a></li>
                                 <li><a href="https://www.facebook.com/sae.gecthrissur.3"><i class="social fa fa-facebook"></i></a></li>
                                 <li><a href="http://www.linkedin.com/in/sae-gect-chapter-2abbb31a0"><i class="social fa fa-linkedin"></i></a></li>

@@ -1,0 +1,32 @@
+#title-logo {
+  height: 90px;
+  padding-left: 50px;
+}
+
+#menu-nav {
+  margin-right: 90px;
+}
+
+@media (max-width: 767px) {
+  #home {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 1270px) {
+  #menu-nav {
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 1080px) {
+  #menu-nav {
+    margin-top: -105px;
+  }
+}
+
+@media (max-width: 1123px) {
+  #title-logo {
+    padding-left: 15px;
+  }
+}
