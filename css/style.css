@@ -112,6 +112,7 @@ li {
 .navbar-default {
   border-color: transparent;
   background-color: #222;
+  /* padding: 25px 0; */
 }
 
 .navbar-default .navbar-brand {
@@ -145,7 +146,7 @@ li {
   color: #fff;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .navbar-default {
     padding: 25px 0;
     border: 0;
@@ -671,12 +672,12 @@ li {
 
 @media (min-width: 768px) and (max-width: 991px) {
   #main-slide .slider-content h1 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    margin-top: 0;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 40px;
   }
   #main-slide .slider-content p {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0;
     line-height: 25px;
   }
@@ -690,6 +691,13 @@ li {
   #main-slide .item {
     height: 550px;
   }
+  #main-slide .carousel-control .fa-angle-right{
+    display: none;
+  }
+  #main-slide .carousel-control .fa-angle-left{
+    display: none;
+  }
+  
 }
 
 @media (max-width: 767px) {
@@ -697,6 +705,7 @@ li {
     font-size: 28px;
     line-height: normal;
     margin-bottom: 0;
+    /* margin-top: 20px; */
   }
   #main-slide .slider-content p {
     font-size: 14px;
@@ -707,26 +716,77 @@ li {
     margin-top: 0;
     font-size: 12px;
   }
-  #main-slide .carousel-indicators {
+
+  #main-slide .carousel-control .fa-angle-right{
     display: none;
   }
-
-  #main-slide .item .slider-content {
+  #main-slide .carousel-control .fa-angle-left{
     display: none;
   }
-
+  #main-slide .slider-content h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 70px;
+  }
+  #main-slide .slider-content p {
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 25px;
+  }
+ 
   #main-slide .item {
-    height: 400px;
+    height: 500px;
   }
+  
 }
 
 @media (max-width: 479px) {
-  #main-slide .item .slider-content {
+  #main-slide .slider-content h1 {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 0;
+    /* margin-top: 20px; */
+  }
+  #main-slide .slider-content p {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .slider.btn {
+    padding: 0 15px;
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .title-img{
+    position: relative;
+    padding-top: 13px;
+    height: 70px;
+    width: 90px;
+    
+  }
+  .navbar-toggle{
+    transform: scale(0.9);
+  }
+  #main-slide .carousel-control .fa-angle-right{
     display: none;
   }
-
+  #main-slide .carousel-control .fa-angle-left{
+    display: none;
+  }
+  
   #main-slide .item {
-    height: 180px;
+    height: 500px;
+  }
+  .navbar-default{
+    padding: 3px 0;
+  }
+  .img-responsive {
+    padding-top: 60px;
+  }
+  .img-responsive1 {
+    padding-top: 10px;
+  }
+  .colors-switcher{
+    transform: scale(1,0.9);
   }
 }
 
@@ -869,7 +929,7 @@ li {
 #portfolio-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2px 0 10px;
   display: block;
 }
 
@@ -895,11 +955,20 @@ li {
   #portfolio-list li {
     width: 100%;
   }
+  .achieve-li{
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  .achieve-img{
+    width: 100%;
+    position: relative;
+    left: 8px;
+  }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 551px) {
   #portfolio-list li {
-    width: 49.9%;
+    width: 100%;
   }
 }
 
@@ -911,18 +980,18 @@ li {
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
   #portfolio-list li {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 991px) {
   #portfolio-list li {
-    width: 50%;
+    width: 100%;
   }
 }
 
 .portfolio-item {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   position: relative;
   text-align: center;
@@ -1015,7 +1084,7 @@ li {
 
 .about-us-section-1 {
   padding-top: 80px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .about-us-section-2 {
@@ -1027,7 +1096,7 @@ li {
 }
 
 .welcome-section {
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 
 .welcome-section img {
@@ -1778,11 +1847,11 @@ iframe {
 /**** Start Color Switcher ****/
 
 .colors-switcher {
-  width: 35%;
-  padding: 20px 18px 14px 20px;
+  width: 50vw;
+  padding: 15px 10px 10px 10px;
   position: fixed;
-  z-index: 3;
-  top: 130px;
+  z-index: 16;
+  top: 110px;
   right: 0;
   background-color: #fff;
   border-radius: 2px 0 0 2px;
@@ -1800,7 +1869,7 @@ iframe {
 .colors-switcher #show-panel {
   position: absolute;
   left: -38px;
-  top: 15px;
+  top: 10px;
   width: 38px;
   height: 38px;
   z-index: 1992;
