@@ -586,7 +586,7 @@ li {
   letter-spacing: 5px;
   margin-bottom: 55px;
   color: #fff;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   /* font-family: "Oswald", sans-serif; */
 }
 
@@ -650,7 +650,6 @@ li {
 .carousel .item.active .animated1 {
   -webkit-animation: lightSpeedIn 1s ease-in 800ms both;
   animation: lightSpeedIn 1s ease-in 800ms both;
-  
 }
 
 .carousel .item.active .animated2 {
@@ -857,7 +856,7 @@ li {
 .portfolio-section-2 {
   padding-top: 80px;
   padding-bottom: 120px;
-  //background: #f7f7f7;
+  /* background: #f7f7f7; */
 }
 
 .portfolio-section-3 {
@@ -917,6 +916,58 @@ li {
 
 @media only screen and (min-width: 801px) and (max-width: 991px) {
   #portfolio-list li {
+    width: 50%;
+  }
+}
+
+#portfolio-list-ach {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#portfolio-list-ach li {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px;
+  margin-bottom: -5px;
+  /* padding: 0px; */
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 550px) {
+  #portfolio-list-ach li {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 551px) {
+  #portfolio-list-ach li {
+    width: 49.9%;
+  }
+}
+
+@media (min-width: 768px) {
+  #portfolio-list-ach li {
+    width: 33.3%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  #portfolio-list-ach li {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 991px) {
+  #portfolio-list-ach li {
     width: 50%;
   }
 }

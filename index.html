@@ -61,7 +61,7 @@
 ================================================== -->
         <div class="colors-switcher" style="z-index: 50;">
             <a id="show-panel" class="hide-panel"><i class=" fa fa-bell"></i></a>        
-            <div>
+            <div id="announcement">
                 <marquee width="100%" direction="left">
                     <p class="notif-p">An event is scheduled on tommorow.Interested students register.</p>       
                 </marquee>
@@ -386,8 +386,11 @@
                       
                   </div>
             </div>                
+                  </div>
+            </div>                
         </div>
-    </div>
+            </div>                
+        </div>
     <!-- End About us Modal Section -->
     
     <!-- End About Us Section -->
@@ -396,10 +399,10 @@
     <!-- Start Call to Action Section -->
     <!-- <section id = "events">
             <iframe src="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html"scrolling="no" width="100%" height="2500px" frameborder="0"></iframe>
-            <!-- <div> 
+            <div> 
                 <object type="text/html" data="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html" width="100%" height="180px">
                 </object>
-             </div>   -->
+             </div>  
     </section> -->
     <!-- End Call to Action Section -->
     
@@ -462,9 +465,8 @@
                                 </div>
                             </li>
                             
-                            <a href="gallery/index.html" class="gallery-btn "><button class="button button2">More</button></a>
-                            
                         </ul>
+                        <a href="gallery/index.html" class="gallery-btn "><button class="button button2">More</button></a>
                         <!-- End Portfolio items -->
                     </div>
                 </div>
@@ -823,7 +825,7 @@
                     <div class="col-md-12">
                         
                         
-                        <ul id="portfolio-list">
+                        <ul id="portfolio-list-ach">
                             <li class="achieve-li">
                                 <div class="portfolio-item">
                                     <img src="images/portfolio/img1.jpg" class="achieve-img img-responsive" alt="" />
@@ -852,9 +854,8 @@
                                 </div>
                             </li>
                             
-                            <a href="achievements/index.html" class="gallery-btn "><button class="button button2">More</button></a>
-                            
                         </ul>
+                        <a href="achievements/index.html" class="gallery-btn "><button class="button button2">More</button></a>
                         <!-- End Portfolio items -->
                     </div>
                 </div>
@@ -1050,7 +1051,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="latest-news">
+                <div class="latest-news" id="news-div">
                     <div class="col-md-12">
                         <div class="latest-post">
                             <img src="images/portfolio/img1.jpg" class="img-responsive" alt="">
@@ -1439,6 +1440,14 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+    <!-- Firebase database -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script src="js/firebase.js"></script>
 
 </body>
 
