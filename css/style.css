@@ -759,7 +759,6 @@ li {
   .title-img{
     position: relative;
     padding-top: 13px;
-    height: 70px;
     width: 90px;
     
   }
@@ -956,6 +955,7 @@ li {
     width: 100%;
   }
   .achieve-li{
+    padding-top: 45px;
     padding-left: 0px;
     padding-right: 10px;
   }
@@ -1300,14 +1300,23 @@ li {
 }
 
 .testimonials .testimonial-content p {
+  padding: 0 80px;
   font-size: 20px;
   line-height: 30px;
   font-style: italic;
   font-weight: 400;
   margin-bottom: 40px;
   color: #000000;
+  text-align: justify;
 }
-
+@media screen and (max-width: 500px) {
+  .testimonials .testimonial-content p {
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+}
 .testimonials .testimonial-content {
   position: relative;
 }
@@ -1633,7 +1642,7 @@ footer.style-1 .footer-link li {
 /*-----------------------------------------*/
 
 .team-member-section {
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
 
@@ -1660,6 +1669,16 @@ footer.style-1 .footer-link li {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+}
+@media screen and (max-width: 500px) {
+  .team-member .team-details {
+      position: absolute;
+      top: 60px;
+    }
+    #team-section .our-team {
+      padding-top: 0;
+    }
+
 }
 
 .team-member:hover .team-details {

@@ -4061,9 +4061,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 25px;
-  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-right: 30px;
+  margin-bottom: 6px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;

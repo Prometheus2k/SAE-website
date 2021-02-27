@@ -1,7 +1,7 @@
 .title-img{
     position: relative;
     bottom: 20px;
-    right : 25px;
+    right : 35px;
     height: 100px;
     width: 140px;
 }
@@ -28,7 +28,7 @@
 .nav {
     padding-top: 10px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 70px;
     padding-bottom: 5px;
     
 }
@@ -41,6 +41,11 @@
     .img-responsive1,.img-responsive2{
         padding-top: 0px;
     }
+    .nav {
+        padding-left: 30px;
+        
+    }
+    
   }
   @media (min-width: 992px) and (max-width: 1200px){
     .img-responsive1{
@@ -366,8 +371,12 @@
     }
     .button{
         position: relative;  
-        right: 0px;
+        right: 5px;
     }
+    .team-member .team-details {
+        position: absolute;
+        top: 60px;
+      }
   
 }
 
