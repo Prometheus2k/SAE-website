@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Satisfy);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
-@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 
 body {
   overflow-x: hidden;
@@ -784,9 +784,7 @@ li {
   .img-responsive1 {
     padding-top: 10px;
   }
-  .colors-switcher{
-    transform: scale(1,0.9);
-  }
+  
 }
 
 /*------------------------------------------------------ */
@@ -955,15 +953,19 @@ li {
     width: 100%;
   }
   .achieve-li{
-    padding-top: 45px;
-    padding-left: 0px;
-    padding-right: 10px;
+    position: relative;
+    right: 40px;
+
   }
-  .achieve-img{
+  .achieve-p{
+    position: relative;
+    left: 3px;
+}
+  /* .achieve-img{
     width: 100%;
     position: relative;
     left: 8px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 767px) and (min-width: 551px) {
@@ -1295,7 +1297,7 @@ li {
 
 .testimonials .testimonial-content img {
   width: 150px;
-  height: auto;
+  height: 150px;
   margin-bottom: 40px;
 }
 
@@ -1307,7 +1309,7 @@ li {
   font-weight: 400;
   margin-bottom: 40px;
   color: #000000;
-  text-align: justify;
+  
 }
 @media screen and (max-width: 500px) {
   .testimonials .testimonial-content p {
@@ -1315,6 +1317,15 @@ li {
     font-size: 15px;
     text-align: center;
     
+  }
+  .testimonials-carousel .owl-controls.clickable .owl-buttons .owl-prev {
+    display: none;
+  }
+  .testimonials-carousel .owl-controls.clickable .owl-buttons .owl-next {
+    display: none;
+  }
+  .owl-theme .owl-controls .owl-buttons div{
+    display: none;
   }
 }
 .testimonials .testimonial-content {
