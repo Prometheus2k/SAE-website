@@ -403,3 +403,9 @@
     margin-left: 20px;
   }
 }
+
+@media (min-width: 500px) and (max-width: 1300px) {
+  .img-execom {
+    padding-top: 0;
+  }
+}

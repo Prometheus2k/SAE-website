@@ -6,8 +6,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="SAE-GECT Website" />
+    <meta property="og:title" content="SAE GECT" />
+    <meta property="og:description" content="SAE-GECT Website" />
+    <meta
+      property="og:image"
+      content="https://firebasestorage.googleapis.com/v0/b/sae-admin-gect.appspot.com/o/assets%2Flogo200.png?alt=media&token=ba273a42-d65a-4f72-82ef-8de702c97028"
+    />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
      
     <title>SAE | GEC Thrissur</title>
     <link rel="icon" type="image/png" href="images/logos/sae.png"/>
@@ -59,7 +66,7 @@
     
        <!-- Styleswitcher
 ================================================== -->
-        <div class="colors-switcher">
+        <div class="colors-switcher" style="display: none;">
             <a id="show-panel" class="hide-panel"><i class=" fa fa-bell"></i></a>        
             <div id="announcement">
                 <marquee width="100%" direction="left">
@@ -483,7 +490,7 @@
                           </div>
                         </div>
                 </div>
-                <a href="./vertical-timeline/index.html" class="gallery-btn"><button class="button button3">More</button></a>
+                <a href="./events/index.html" class="gallery-btn"><button class="button button3">More</button></a>
             </div>
         </section>
 
@@ -845,7 +852,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
-                            <h3 class="team-title">Execom <span>2019-20</span></h3>                    
+                            <h3 class="team-title">Execom <span id="execom-year">2019-20</span></h3>                    
                         </div>
                 </div>
             </div>
@@ -855,10 +862,10 @@
                     <div id="team-section">
                     
 
-                                <div class="our-team">
+                                <div class="our-team" id="execom-div">
 
                                     <div class="team-member">
-                                        <img src="images/team/Anwar Sadique.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/Anwar Sadique.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Anwar Sadique</h4>
                                             <p>Faculty Advisor</p>
@@ -873,7 +880,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/deepu.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/deepu.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Deepu Sebastian</h4>
                                             <p>Chairman</p>
@@ -882,7 +889,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/clince .jpg" class="img-responsive" alt="">
+                                        <img src="images/team/clince .jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Clince Michael</h4>
                                             <p>Vice Chairman</p>
@@ -891,7 +898,7 @@
                                     </div>    
                                     
                                     <div class="team-member">
-                                        <img src="images/team/Alvin Lucose .jpg" class="img-responsive" alt="">
+                                        <img src="images/team/Alvin Lucose .jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Alvin Lucose</h4>
                                             <p>Secretary & SEC member</p>
@@ -900,7 +907,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/suraj.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/suraj.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Suraj Suresh</h4>
                                             <p>Treasurer</p>
@@ -909,7 +916,7 @@
                                     </div>
        
                                     <div class="team-member">
-                                        <img src="images/team/niveditha .jpg" class="img-responsive" alt="">
+                                        <img src="images/team/niveditha .jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Niveditha S</h4>
                                             <p>Membership chair</p>
@@ -917,7 +924,7 @@
                                         </div>
                                     </div>
                                     <div class="team-member">
-                                        <img src="images/team/aslam.jpeg" class="img-responsive" alt="">
+                                        <img src="images/team/aslam.jpeg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Mohammed Aslam</h4>
                                             <p>Program chair</p>
@@ -926,7 +933,7 @@
                                     </div>    
 
                                     <div class="team-member">
-                                        <img src="images/team/arun.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/arun.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Arun Das K</h4>
                                             <p>Publicity chair</p>
@@ -935,7 +942,7 @@
                                     </div>
                                     
                                     <div class="team-member">
-                                        <img src="images/team/sachin.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/sachin.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Sachin P</h4>
                                             <p>Reception chair</p>
@@ -944,7 +951,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/abhijith rp .jpeg" class="img-responsive" alt="">
+                                        <img src="images/team/abhijith rp .jpeg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Abhijith R P</h4>
                                             <p>Executive member</p>
@@ -952,7 +959,7 @@
                                         </div>
                                     </div>
                                     <div class="team-member">
-                                        <img src="images/team/pranav.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/pranav.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Pranav Balachandran</h4>
                                             <p>Executive member</p>
@@ -961,7 +968,7 @@
                                     </div>    
 
                                     <div class="team-member">
-                                        <img src="images/team/vimal .jpg" class="img-responsive" alt="">
+                                        <img src="images/team/vimal .jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Vimal George</h4>
                                             <p>3rd year representative</p>
@@ -970,7 +977,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/alfro.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/alfro.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Alfro Robin</h4>
                                             <p>3rd year representative</p>
@@ -979,7 +986,7 @@
                                     </div>
 
                                     <div class="team-member">
-                                        <img src="images/team/jasir.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/jasir.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Jasir V A</h4>
                                             <p>2nd year representative</p>
@@ -987,7 +994,7 @@
                                         </div>
                                     </div>
                                     <div class="team-member">
-                                        <img src="images/team/amjad.jpg" class="img-responsive" alt="">
+                                        <img src="images/team/amjad.jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Amjad Ali</h4>
                                             <p>2nd year representative</p>
@@ -996,7 +1003,7 @@
                                     </div>    
 
                                     <div class="team-member">
-                                        <img src="images/team/adithya .jpg" class="img-responsive" alt="">
+                                        <img src="images/team/adithya .jpg" class="img-responsive img-execom" alt="">
                                         <div class="team-details">
                                             <h4>Adithyan A Kumar</h4>
                                             <p>Media Executive</p>
@@ -1262,7 +1269,7 @@
                 <!-- Testimonial 1 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img class = "principal"src="images/principal.jpg" alt="" >
+                        <!-- <img class = "principal"src="images/principal.jpg" alt="" > -->
                         <div class="testimonial-author">
                             <div class="author">Dr. Sheeba V S</div>
                             <div class="designation">Principal</div>
@@ -1273,7 +1280,7 @@
                 <!-- Testimonial 2 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img src="images/team/Anwar Sadique.jpg" alt="" >
+                        <!-- <img src="images/team/Anwar Sadique.jpg" alt="" > -->
                         <div class="testimonial-author">
                             <div class="author">Anwar Sadique</div>
                             <div class="designation">Faculty Advisor</div>
@@ -1284,7 +1291,7 @@
                 <!-- Testimonial 3 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img src="images/francis.jpg" alt="" >
+                        <!-- <img src="images/francis.jpg" alt="" > -->
                         <div class="testimonial-author">
                             <div class="author">Francis Augustine Joseph</div>
                             <div class="designation">MC Member SAEISS</div>

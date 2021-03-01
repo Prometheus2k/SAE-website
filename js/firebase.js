@@ -21,6 +21,8 @@ firebase
   .on("value", (snapshot) => {
     let data = snapshot.val();
     if (data) {
+      document.getElementById("announcement").parentElement.style.display =
+        "block";
       announcementdata = Object.values(data);
 
       announcementhtml = "";
@@ -38,6 +40,9 @@ firebase
       });
 
       document.getElementById("announcement").innerHTML = announcementhtml;
+    } else {
+      document.getElementById("announcement").parentElement.style.display =
+        "none";
     }
   });
 
@@ -103,6 +108,79 @@ firebase
 
       var x = document.getElementsByClassName("portfolio-list-ach");
       x[0].innerHTML = achievementshtml;
+    }
+  });
+
+// Execom - year
+var yearsdata;
+var yearshtml = "";
+firebase
+  .database()
+  .ref("/execom-year/")
+  .on("value", (snapshot) => {
+    let data = snapshot.val();
+    if (data) {
+      yearsdata = Object.values(data);
+
+      yearshtml = "";
+      yearsdata.map((data) => {
+        let html = data.year;
+        yearshtml += html;
+
+        return null;
+      });
+
+      document.getElementById("execom-year").innerHTML = yearshtml;
+    }
+  });
+
+// Execom
+var execomdata;
+var execomhtml = "";
+firebase
+  .database()
+  .ref("/execom/")
+  .on("value", (snapshot) => {
+    let data = snapshot.val();
+    if (data) {
+      let sortedData = Object.fromEntries(
+        Object.entries(data).sort((a, b) => a[1].priority - b[1].priority)
+      );
+      execomdata = Object.values(sortedData);
+
+      execomhtml = "";
+      execomdata.map((data) => {
+        let html = `<div class="team-member">
+          <img src="${data.imageUrl}" class="img-responsive img-execom" alt="">
+          <div class="team-details">
+            <h4>${data.name}</h4>
+            <p>${data.position}</p>
+          </div>
+        </div>`;
+        execomhtml += html;
+
+        return null;
+      });
+
+      $(".our-team").data("owlCarousel").destroy();
+
+      document.getElementById("execom-div").innerHTML = execomhtml;
+
+      $(".our-team").owlCarousel({
+        pagination: true,
+        slideSpeed: 2500,
+        stopOnHover: true,
+        autoPlay: 3000,
+        items: 4,
+        //singleItem:true,
+        itemsMobile: [550, 1],
+        itemsDesktopSmall: [991, 2],
+        transitionStyle: "fade",
+        navigationText: [
+          '<i class="fa fa-chevron-left"></i>',
+          '<i class="fa fa-chevron-right"></i>',
+        ],
+      });
     }
   });
 
@@ -208,3 +286,9 @@ firebase
       document.getElementById("contacts-table").innerHTML = contacthtml;
     }
   });
+
+// Submiting contact form
+function contactSubmit(e) {
+  e.preventDefault();
+  console.log(e);
+}

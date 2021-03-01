@@ -2,7 +2,8 @@ section {
   padding: 100px 0;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -10,8 +11,8 @@ body {
   font-family: "Roboto";
   font-size: 17px;
   font-weight: 400;
-  background-color: #DDD;
-  
+  background-color: #ddd;
+  overflow: hidden;
 }
 
 h1 {
@@ -22,8 +23,8 @@ h1 {
 }
 
 header {
-  background: #28ABE3;
-  color: #FFFFFF;
+  background: #28abe3;
+  color: #ffffff;
   padding: 150px 0;
 }
 header p {
@@ -99,7 +100,7 @@ header p {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #28ABE3;
+  background: #28abe3;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -118,7 +119,8 @@ header p {
 }
 
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    center center no-repeat;
   background-size: cover;
 }
 
@@ -128,7 +130,7 @@ header p {
   margin-bottom: 20px;
 }
 .timeline-img-header h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   bottom: 5px;
   left: 20px;
@@ -137,14 +139,14 @@ header p {
 blockquote {
   margin-top: 30px;
   color: #757575;
-  border-left-color: #3F51B5;
+  border-left-color: #3f51b5;
   padding: 0 20px;
 }
 
 .date {
-  background: #28ABE3;
+  background: #28abe3;
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   position: absolute;
   top: 0;
@@ -177,4 +179,20 @@ blockquote {
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
   }
+}
+
+.timeline-img-header {
+  margin-bottom: 0;
+}
+
+.timeline-img-header img {
+  position: absolute;
+  z-index: -10;
+}
+
+p {
+  background-color: white;
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0 !important;
 }
