@@ -30,12 +30,12 @@
     <link rel="stylesheet" href="css/our_styles.css">
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/fix.css" rel="stylesheet">
     
 
     
     <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
     
+
 
 
     <!-- Custom Fonts -->
@@ -47,7 +47,7 @@
     <!-- Modernizer js -->
     <script src="js/modernizr.custom.js"></script>
     <script src="https://kit.fontawesome.com/30bbf658ba.js" crossorigin="anonymous"></script>
-    
+
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -59,7 +59,7 @@
     
        <!-- Styleswitcher
 ================================================== -->
-        <div class="colors-switcher" style="z-index: 50;">
+        <div class="colors-switcher">
             <a id="show-panel" class="hide-panel"><i class=" fa fa-bell"></i></a>        
             <div id="announcement">
                 <marquee width="100%" direction="left">
@@ -74,22 +74,22 @@
 ================================================== -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" style="z-index: 40;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" id="toggle-button" style="margin-top: 25px;" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="title-logo" class="navbar-brand page-scroll" href="#page-top"><img class="title-img"src="images/logos/sae.png" alt="SAE"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="title-img"src="images/logos/sae.png" alt="SAE"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="menu-nav">
+                <ul id="main-navbar" class="nav navbar-nav navbar-right" style="margin-top: -60px; margin-left: 50px;">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -226,7 +226,7 @@
                 
                 <div class="col-md-4">
                     <div class="welcome-section text-center">
-                        <img src="images/portfolio/sae-gec.png" class="img-responsive" alt="..">
+                        <img src="images/portfolio/sae-gec.png" class="img-responsive img-responsive1" alt="..">
                         <h4>SAE GEC Thrissur</h4>
                         <div class="border"></div>
                         <p>SAE stands for the Society Of Automotive Engineers and is an internationally active professional association for Engineering professionals and students.</p>
@@ -234,7 +234,7 @@
                 </div>
                 
                  <div class="col-md-8">
-                        <p class="about-SAE" id="saegec"> SAE GEC Thrissur, a collegiate member of SAEINDIA began in 2016 when an enthusiastic group of our seniors wanted to pursue engineering that was taught 
+                        <p class="about-SAE"> SAE GEC Thrissur, a collegiate member of SAEINDIA began in 2016 when an enthusiastic group of our seniors wanted to pursue engineering that was taught 
                             beyond their curriculum and texts. There were difficulties at first, but hard work and determination got us through. In 2019, Team-BHP came in 3rd for the 
                             tractor design competition conducted by SAEISS and put us on the map. Since then, there has been no looking back and the club has been the cornerstone in our
                              institution for the development of industry-relevant skills and etiquette. As a result, the club grew tremendously and has been involved and awarded in several
@@ -243,28 +243,21 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-8" id="saeindia-1">
+                <div class="container-sae row">
+                    <div id ="div1" class="col-md-8">
                         <p class="about-SAEindia">The Society Of Automotive Engineers India is India's leading resource for mobility technology. As an individual member-driven society
                              of mobility practitioners, the ownership of SAEINDIA rests with its members who are Individuals from the mobility community, which
                               includes Engineers, Executives from Industry, Government Officials, Academicians and Students. SAEINDIA is a strategic alliance 
                               partner of SAE International registered in India as an Indian nonprofit engineering and scientific society dedicated to the advancement of the mobility industry in India. 
                             SAEINDIA is divided into four sections - Bengaluru section, Northern & Eastern action, Southern section and the Western section.  </p>
                     </div>
-                    <div class="col-md-4">
+                    <div id ="div2" class="col-md-4">
                         <div class="welcome-section text-center">
-                            <img src="images/portfolio/sae-india.png" class="img-responsive" alt="..">
+                            <img src="images/portfolio/sae-india.png" class="img-responsive img-responsive1" alt="..">
                             <h4>SAE India</h4>
                             <div class="border"></div>
                             <p>The Society Of Automotive Engineers India is India's leading resource for mobility technology.</p>
                         </div>
-                    </div>
-                    <div class="col-md-8" id="saeindia-2">
-                        <p class="about-SAEindia">The Society Of Automotive Engineers India is India's leading resource for mobility technology. As an individual member-driven society
-                             of mobility practitioners, the ownership of SAEINDIA rests with its members who are Individuals from the mobility community, which
-                              includes Engineers, Executives from Industry, Government Officials, Academicians and Students. SAEINDIA is a strategic alliance 
-                              partner of SAE International registered in India as an Indian nonprofit engineering and scientific society dedicated to the advancement of the mobility industry in India. 
-                            SAEINDIA is divided into four sections - Bengaluru section, Northern & Eastern action, Southern section and the Western section.  </p>
                     </div>
                 </div>
                     
@@ -272,7 +265,7 @@
                 
                     <div class="col-md-4">
                         <div class="welcome-section text-center">
-                            <img src="images/portfolio/sae-international.jpg" class="img-responsive" alt="..">
+                            <img src="images/portfolio/sae-international.jpg" class="img-responsive img-responsive1" alt="..">
                             <h4>SAE International</h4>
                             <div class="border"></div>
                             <p>SAE International is a globally active professional association and standards developing organization for engineering professionals in various industries.</p>
@@ -280,7 +273,7 @@
                     </div>
                     
                      <div class="col-md-8">
-                            <p class="about-SAE" id="saeinternational"> SAE International is a globally active professional association and standards developing organization for engineering professionals
+                            <p class="about-SAE"> SAE International is a globally active professional association and standards developing organization for engineering professionals
                                  in various industries. SAE International World Headquarters is in Warrendale, Pennsylvania. Principal emphasis is placed on global transport industries
                                   such as aerospace, automotive, and commercial vehicles.SAE International boasts of over 1,38,000 global members. Membership is granted to individuals,
                                    rather than companies. Aside from its standardization efforts, SAE International also devotes resources to projects and programs in STEM education,
@@ -362,10 +355,10 @@
                 <div class="row">
                   <div class="section-title text-center"> 
                     <h3 class="modal-heading">Facilities</h3>
-                    <div class="col-md-5">
-                        <img src="images/logos/facilities-1.jpg" class="modal-img2 img-responsive" alt="..">
+                    <div class="col-md-6">
+                        <img src="images/logos/facilities-all.jpg" class="modal-img2 img-responsive" alt="..">
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6">
                             <p>The college boasts of several facilities and equipment that include a Robotics lab, FABLAB,
                                  Central library, TIG and MIG welding machine, Drilling machine, CNC machine, Universal 
                                  testing machine, Vertical milling machine, Universal Metal Cutting Band Saw, Vertical Machining
@@ -375,36 +368,17 @@
                     </div>
                     
                 </div><!-- /.row -->
-                <div class="row">
-                      <div class="col-md-5">
-                          <img src="images/logos/facilities-4.jpg" class="modal-img2 img-responsive" alt="..">
-                      </div>
-                      <div class="col-md-7">
-                        <img src="images/logos/facilities-3.jpg" class="modal-img2 img-responsive" alt="..">
-                        </div>
-                      </div>
+               
                       
                   </div>
             </div>                
-                  </div>
-            </div>                
         </div>
-            </div>                
-        </div>
+    
     <!-- End About us Modal Section -->
     
     <!-- End About Us Section -->
     
     
-    <!-- Start Call to Action Section -->
-    <!-- <section id = "events">
-            <iframe src="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html"scrolling="no" width="100%" height="2500px" frameborder="0"></iframe>
-            <div> 
-                <object type="text/html" data="https://prometheus2k.github.io/SAE-website/vertical-timeline/index.html" width="100%" height="180px">
-                </object>
-             </div>  
-    </section> -->
-    <!-- End Call to Action Section -->
     
     
     
@@ -426,37 +400,37 @@
                         <ul id="portfolio-list">
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img1.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img1.jpg" class="img-responsive2" alt="" />
                                     
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img2.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img2.jpg" class="img-responsive2" alt="" />
                                     
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img3.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img3.jpg" class="img-responsive2" alt="" />
                                     
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img4.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img4.jpg" class="img-responsive2" alt="" />
                                    
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img5.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img5.jpg" class="img-responsive2" alt="" />
                                     
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <img src="images/portfolio/img6.jpg" class="img-responsive" alt="" />
+                                    <img src="images/portfolio/img6.jpg" class="img-responsive2" alt="" />
                                     <!-- <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
@@ -466,6 +440,7 @@
                             </li>
                             
                         </ul>
+                                                    
                         <a href="gallery/index.html" class="gallery-btn "><button class="button button2">More</button></a>
                         <!-- End Portfolio items -->
                     </div>
@@ -488,7 +463,7 @@
                         </div>  
                         <div class="col-xs-12 col-sm-6 col-md-3">
                           <div class="counter-item">
-                            <i class="fa fa-group"></i>
+                            <i class="fas fa-award"></i>
                             <div class="timer" id="item2" data-to="15" data-speed="5000"></div>
                             <h5>Competitions</h5>                               
                           </div>
@@ -502,7 +477,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3">
                           <div class="counter-item">
-                            <i class="fas fa-project-diagram"></i>
+                            <i class="fa fa-tasks" aria-hidden="true"></i>
                             <div class="timer" id="item4" data-to="10" data-speed="5000"></div>
                             <h5>Projects</h5>                               
                           </div>
@@ -825,10 +800,10 @@
                     <div class="col-md-12">
                         
                         
-                        <ul id="portfolio-list-ach">
+                        <ul id="portfolio-list achieve-ul" class="portfolio-list-ach">
                             <li class="achieve-li">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/img1.jpg" class="achieve-img img-responsive" alt="" />
+                                <div class="portfolio-item col-md-4">
+                                    <img src="images/portfolio/img1.jpg" class="achieve-img " alt="" />
                                     <div class="desc">
                                         <h4 class="achieve-desc">Description 2</h4>
                                         <p class="achieve-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minu</p>
@@ -836,8 +811,8 @@
                                 </div>
                             </li>
                             <li class="achieve-li">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/img2.jpg" class="achieve-img img-responsive" alt="" />
+                                <div class="portfolio-item col-md-4">
+                                    <img src="images/portfolio/img2.jpg" class="achieve-img " alt="" />
                                     <div class="desc">
                                         <h4 class="achieve-desc">Description 2</h4>
                                         <p class="achieve-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minu</p>
@@ -845,8 +820,8 @@
                                 </div>
                             </li>
                             <li class="achieve-li">
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/img3.jpg" class="achieve-img img-responsive" alt="" />
+                                <div class="portfolio-item col-md-4">
+                                    <img src="images/portfolio/img3.jpg" class="achieve-img img-responsive3" alt="" />
                                     <div class="desc">
                                         <h4 class="achieve-desc">Description 2</h4>
                                         <p class="achieve-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minu</p>
@@ -855,6 +830,7 @@
                             </li>
                             
                         </ul>
+                                                    
                         <a href="achievements/index.html" class="gallery-btn "><button class="button button2">More</button></a>
                         <!-- End Portfolio items -->
                     </div>
@@ -869,7 +845,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="section-title text-center">
-                            <h3 class="team-title">Executive Committee <span>2019-20</span></h3>                    
+                            <h3 class="team-title">Execom <span>2019-20</span></h3>                    
                         </div>
                 </div>
             </div>
@@ -1286,34 +1262,34 @@
                 <!-- Testimonial 1 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img src="images/testimonial/face_1.png" alt="" >
+                        <img class = "principal"src="images/principal.jpg" alt="" >
                         <div class="testimonial-author">
                             <div class="author">Dr. Sheeba V S</div>
                             <div class="designation">Principal</div>
                         </div>
-                        <p>SAE GECT collegiate club has never failed in bringing laurels to our college. Wishing the club members<br> all the very best for their future endeavours.</p>
+                        <p>SAE GECT collegiate club has never failed in bringing laurels to our college. Wishing the club members all the very best for their future endeavours.</p>
                     </div>
                 </div>
                 <!-- Testimonial 2 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img src="images/testimonial/face_2.png" alt="" >
+                        <img src="images/team/Anwar Sadique.jpg" alt="" >
                         <div class="testimonial-author">
                             <div class="author">Anwar Sadique</div>
                             <div class="designation">Faculty Advisor</div>
                         </div>
-                        <p>SAE GECT Chapter provides you the perfect opportunity to  acquire the offers from SAEINDIA in raising <br>yourselves to the industrial standards. Being a part of it can enhance your overall skills and <br>prepare you in every manner.</p>
+                        <p>SAE GECT Chapter provides you the perfect opportunity to  acquire the offers from SAEINDIA in raising yourselves to the industrial standards. Being a part of it can enhance your overall skills and prepare you in every manner.</p>
                     </div>
                 </div>
                 <!-- Testimonial 3 -->
                 <div class="testimonials item">
                     <div class="testimonial-content">
-                        <img src="images/testimonial/face_3.png" alt="" >
+                        <img src="images/francis.jpg" alt="" >
                         <div class="testimonial-author">
                             <div class="author">Francis Augustine Joseph</div>
-                            <div class="designation">Honorable Customer</div>
+                            <div class="designation">MC Member SAEISS</div>
                         </div>
-                        <p>SAE GECT is one among the most successful collegiate clubs in the state. Being an active member of such <br>a great club will unveil the treasure of opportunities to learn, groom, enjoy and equip<br> yourself for the future.</p>
+                        <p>SAE GECT is one among the most successful collegiate clubs in the state. Being an active member of such a great club will unveil the treasure of opportunities to learn, groom, enjoy and equip yourself for the future.</p>
                     </div>
                 </div>
             </div>
@@ -1371,10 +1347,24 @@
                     <div class="footer-contact-info">
                         <h4>Contact info</h4>
                         <ul>
-                            <li><strong>Anwar Sadique &emsp; &nbsp; : &ensp;&ensp;</strong>8547779889</li>
-                            <li><strong>Deepu Sebastian <span style="display:inline-block; width: 13px;"></span>: &ensp;&nbsp; </strong>8139834562</li>
-                            <li><strong>Clince Michael &emsp;&ensp;&nbsp; : &ensp; &nbsp;</strong>8848868119</li>
-                            <li><strong>email &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:&ensp; &ensp;</strong>saegectcr@gmail.com</li>
+                            <table style="width:100%" id="contacts-table">
+                                <tr>
+                                  <td><strong>Anwar Sadique</strong></td>
+                                  <td>:&nbsp;8547779889</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>Deepu Sebastian</strong></td>
+                                  <td>:&nbsp;8139834562</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>Clince Michael</strong></td>
+                                  <td>:&nbsp;8848868119</td>
+                                </tr>
+                                <tr>
+                                  <td><strong>Email</strong></td>
+                                  <td>:&nbsp;saegectcr@gmail.com</td>
+                                </tr>
+                              </table>
                         </ul>
                     </div>
                 </div>
@@ -1382,8 +1372,8 @@
                     <div class="footer-contact-info">
                         <h4>Developers</h4>
                         <ul>
-                            <li><strong>Shone Stalin &nbsp:&nbsp &nbsp</strong>6282380840</li>
-                            <li><strong>Abil Savio &nbsp &nbsp &nbsp :&nbsp &nbsp</strong>9496722816</li>                  
+                            <li><strong>Shone Stalin &nbsp;:&nbsp; &nbsp;</strong>6282380840</li>
+                            <li><strong>Abil Savio &nbsp; &nbsp; &nbsp; :&nbsp; &nbsp;</strong>9496722816</li>                  
                         </ul>
                     </div>
                 </div>
@@ -1394,12 +1384,12 @@
                 <div class="row">
                     
                     <div class="col-md-12 col-xs-12">
-                        <div class="footer-social" style="text-align: center;">
-                            <ul class="footer-ul" style="padding: 0px;">
+                        <div class="footer-social"style="text-align: center;">
+                            <ul class="footer-ul"style="padding: 0px;">
                                 <li><a href="https://www.instagram.com/saegect/"><i class="social fa fa-instagram"></i></a></li>
                                 <li><a href="https://www.facebook.com/sae.gecthrissur.3"><i class="social fa fa-facebook"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/sae-gect-chapter-2abbb31a0"><i class="social fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCug85ysBOqSZsVIH_cgpkDw"><i class="social fa fa-youtube"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCug85ysBOqSZsVIH_cgpkDw"><i class="social-yt fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1441,13 +1431,13 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
 
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
-
-    <!-- Firebase database -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
-    <script src="js/firebase.js"></script>
+     <!-- Firebase SDK -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+ 
+     <!-- Firebase database -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+     <script src="js/firebase.js"></script>
 
 </body>
 

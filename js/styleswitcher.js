@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 			jQuery('#show-panel').removeClass('show-panel');
 			jQuery('#show-panel').addClass('hide-panel');
 		}else if(jQuery(this).hasClass('hide-panel')) {
-			jQuery('.colors-switcher').css({'right': '-35%'});
+			jQuery('.colors-switcher').css({'right': '-50vw'});
 			jQuery('#show-panel').removeClass('hide-panel');
 			jQuery('#show-panel').addClass('show-panel');
 		}

@@ -59,7 +59,7 @@ firebase
       gallerydata.map((data) => {
         let html = `<li>
           <div class="portfolio-item">
-            <img src="${data.imageUrl}" class="img-responsive" alt="" />
+            <img src="${data.imageUrl}" class="img-responsive2" alt="" style="height:320px; width:400px;" />
           </div>
         </li>`;
         galleryhtml += html;
@@ -88,8 +88,8 @@ firebase
       achievementshtml = "";
       achievementsdata.map((data) => {
         let html = `<li class="achieve-li">
-          <div class="portfolio-item">
-            <img src="${data.imageUrl}" class="achieve-img img-responsive" alt="" />
+          <div class="portfolio-item col-md-4">
+            <img src="${data.imageUrl}" class="achieve-img" alt="" style="height:250px; width:313px;" />
             <div class="desc">
               <h4 class="achieve-desc">${data.title}</h4>
               <p class="achieve-p">${data.content}</p>
@@ -101,9 +101,8 @@ firebase
         return null;
       });
 
-      document.getElementById(
-        "portfolio-list-ach"
-      ).innerHTML = achievementshtml;
+      var x = document.getElementsByClassName("portfolio-list-ach");
+      x[0].innerHTML = achievementshtml;
     }
   });
 
@@ -147,7 +146,7 @@ firebase
 
         let html = `<div class="col-md-12">
           <div class="latest-post">
-            <img src="${data.imageUrl}" class="img-responsive" alt="">
+            <img src="${data.imageUrl}" class="img-responsive" alt="" style="height:320px; width:345px;" />
             <h4><a href="#">${data.title}</a></h4>
             <div class="post-details">
               <span class="date"><strong>${date}</strong> <br>${mon} , ${year}</span>
@@ -181,5 +180,31 @@ firebase
           '<i class="fa fa-chevron-right"></i>',
         ],
       });
+    }
+  });
+
+// Contact info
+var contactdata;
+var contacthtml = "";
+firebase
+  .database()
+  .ref("/contact/")
+  .on("value", (snapshot) => {
+    let data = snapshot.val();
+    if (data) {
+      contactdata = Object.values(data);
+
+      contacthtml = "";
+      contactdata.map((data) => {
+        let html = `<tr>
+          <td><strong>${data.name}</strong></td>
+          <td>&nbsp;:&nbsp;${data.phno}</td>
+        </tr>`;
+        contacthtml += html;
+
+        return null;
+      });
+
+      document.getElementById("contacts-table").innerHTML = contacthtml;
     }
   });
