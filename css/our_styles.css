@@ -281,9 +281,9 @@
 .achieve-desc {
   color: #666;
 }
-.achieve-li {
+/* .achieve-li {
   padding-left: 35px;
-}
+} */
 
 @media (max-width: 1300px) {
   .title-img {
@@ -395,5 +395,11 @@
   #main-navbar {
     margin-top: 0 !important;
     margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-img {
+    margin-left: 20px;
   }
 }
