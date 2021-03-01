@@ -185,9 +185,11 @@ blockquote {
   margin-bottom: 0;
 }
 
-.timeline-img-header img {
+.timeline-img-header div {
   position: absolute;
   z-index: -10;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 p {
@@ -195,4 +197,14 @@ p {
   padding-top: 20px !important;
   padding-bottom: 10px !important;
   margin-bottom: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .timeline-img-header {
+    height: 300px;
+  }
+
+  .timeline-img-header div {
+    max-height: 300px;
+  }
 }

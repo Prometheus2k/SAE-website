@@ -261,6 +261,34 @@ firebase
     }
   });
 
+// Registration
+var registrationdata;
+var registrationhtml = "";
+firebase
+  .database()
+  .ref("/reg/")
+  .on("value", (snapshot) => {
+    let data = snapshot.val();
+    if (data) {
+      registrationdata = Object.values(data);
+
+      registrationhtml = "";
+      registrationdata.map((data) => {
+        let html = `<a href="${data.link}" target="_blank" rel="noreferrer" class="btn-system btn-small">Join Us</a>`;
+        registrationhtml += html;
+
+        return null;
+      });
+
+      var x = document.getElementsByClassName("plan-signup");
+      x[0].innerHTML = registrationhtml;
+      x[1].innerHTML = registrationhtml;
+      x[2].innerHTML = registrationhtml;
+      x[3].innerHTML = registrationhtml;
+      x[4].innerHTML = registrationhtml;
+    }
+  });
+
 // Contact info
 var contactdata;
 var contacthtml = "";

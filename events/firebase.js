@@ -56,7 +56,9 @@ firebase
 
           <div class="timeline-content timeline-card js--fadeInRight">
             <div class="timeline-img-header">
-              <img src="${data.imageUrl}" class="img-responsive" alt=""/>
+              <div>
+                <img src="${data.imageUrl}" class="img-responsive" alt=""/>
+              </div>
               <h2>${data.title}</h2>
             </div>
             <div class="date">
@@ -73,7 +75,9 @@ firebase
 
           <div class="timeline-content timeline-card js--fadeInLeft">
             <div class="timeline-img-header">
-              <img src="${data.imageUrl}" class="img-responsive" alt=""/>
+              <div>
+                <img src="${data.imageUrl}" class="img-responsive" alt=""/>
+              </div>
               <h2>${data.title}</h2>
             </div>
             <div class="date">
