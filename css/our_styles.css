@@ -1,9 +1,11 @@
-.title-img {
-  position: relative;
-  bottom: 20px;
-  right: 35px;
-  height: 100px;
-  width: 140px;
+@media (min-width: 1300px) {
+  .title-img {
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    height: 90px;
+    width: 120px;
+  }
 }
 .notif-p {
   font-size: 14px;
@@ -25,11 +27,13 @@
   cursor: pointer;
 }
 
-.nav {
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-left: 70px;
-  padding-bottom: 5px;
+
+@media (min-width: 1301px) {
+  .nav {
+    position: relative;
+    top: 75px;
+    left: 70px;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -40,9 +44,16 @@
   .img-responsive2 {
     padding-top: 0px;
   }
-  .nav {
-    padding-left: 30px;
+  .img-responsive-bg{
+    padding-top: 70px;
   }
+  .nav {
+      padding-top: 10px;
+      padding-right: 30px;
+      padding-left: 15px;
+      padding-bottom: 5px;
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .img-responsive1 {
@@ -84,7 +95,7 @@
 }
 .about-SAE {
   padding-top: 10px;
-  padding-left: 40px;
+  padding-left: 20px;
   /* font-size: 15px; */
   line-height: 2;
   text-align: justify;
@@ -276,7 +287,7 @@
 .achieve-p {
   color: #999;
   padding-bottom: 60px;
-  text-align: center;
+  text-align: justify;
 }
 .achieve-desc {
   color: #666;
@@ -288,35 +299,38 @@
 @media (max-width: 1300px) {
   .title-img {
     position: relative;
-    bottom: 25px;
+    bottom: 15px;
     right: 5px;
     height: 80px;
-    width: 120px;
+    width: 110px;
   }
   .navbar-default {
     border-color: transparent;
     background-color: #222;
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
 }
 @media (max-width: 992px) {
   .img-responsive1 {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   .welcome-section p {
-    padding: 20px 40px 0px 40px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 40px;
+    
     color: #999;
   }
   .about-SAE {
     margin-top: -40px;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-bottom: 80px;
     font-size: 14px;
   }
   .about-SAEindia {
     margin-top: -40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 80px;
     font-size: 14px;
   }
@@ -347,8 +361,8 @@
     padding-bottom: 60px;
   }
   .section-title p {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 13px;
+    padding-right: 13px;
   }
 }
 @media screen and (max-width: 500px) {

@@ -755,8 +755,11 @@ li {
   }
   .title-img {
     position: relative;
-    padding-top: 13px;
-    width: 90px;
+    right: 18px;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100px;
+    height: 80px;
   }
   .navbar-toggle {
     transform: scale(0.9);
@@ -949,11 +952,13 @@ li {
   }
   .achieve-li {
     position: relative;
-    /* right: 40px; */
+    right: 5px;
   }
   .achieve-p {
     position: relative;
-    /* left: 3px; */
+    right: 2px;
+    padding-top: 20px;
+    
   }
   /* .achieve-img{
     width: 100%;
@@ -1062,11 +1067,11 @@ li {
 }
 
 .portfolio-item:hover img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .portfolio-caption {
