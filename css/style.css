@@ -1243,7 +1243,7 @@ li {
   font-size: 40px;
 }
 
-.timer {
+.timer,.timer1,.timer2{
   font-size: 48px;
   font-weight: 800;
   text-transform: uppercase;
@@ -1252,6 +1252,49 @@ li {
   font-family: "Oswald", sans-serif;
 }
 
+.timer1 {
+  position: absolute;
+  top: 60px;
+  right: 70px;
+ 
+}
+.timer2 {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .timer1{
+    right: 50px;
+   
+  }
+  .timer2{
+    right: 60px;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .timer1{
+    right: 115px;
+   
+  }
+  .timer2{
+    right: 125px;
+  }
+ 
+}
+@media  (max-width: 767px) {
+  .timer1{
+    left: 170px;
+   
+  }
+  .timer2{
+    left: 160px;
+  }
+ 
+}
 /*-------------------------------------------------*/
 /* Start Latest News Section                       */
 /*-------------------------------------------------*/

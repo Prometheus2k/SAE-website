@@ -230,9 +230,10 @@ fieldset[disabled] .btn-xl.active {
 .counter-item i {
     color: #28ABE3;
 }
-.timer {
+.timer,.timer1,.timer2 {
     color: #28ABE3;
 }
+
 .latest-post h4 {
     color: #28ABE3;
 }
