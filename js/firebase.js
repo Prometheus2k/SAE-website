@@ -61,13 +61,13 @@ firebase
       gallerydata = Object.values(sortedData);
 
       galleryhtml = "";
-      gallerydata.map((data) => {
+      gallerydata.map((data, i) => {
         let html = `<li>
           <div class="portfolio-item">
             <img src="${data.imageUrl}" class="img-responsive2" alt="" style="height:320px; width:400px;" />
           </div>
         </li>`;
-        galleryhtml += html;
+        if (i <= 2) galleryhtml += html;
 
         return null;
       });
@@ -92,8 +92,8 @@ firebase
 
       achievementshtml = "";
       achievementsdata.map((data) => {
-        let html = `<li class="achieve-li">
-          <div class="portfolio-item col-md-4">
+        let html = `<li class="achieve-li col-md-4">
+          <div class="portfolio-item">
             <img src="${data.imageUrl}" class="achieve-img" alt="" style="height:250px; width:313px;" />
             <div class="desc">
               <h4 class="achieve-desc">${data.title}</h4>
