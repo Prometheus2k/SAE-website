@@ -266,26 +266,22 @@ var registrationdata;
 var registrationhtml = "";
 firebase
   .database()
-  .ref("/reg/")
+  .ref("/reg_yr/")
   .on("value", (snapshot) => {
     let data = snapshot.val();
     if (data) {
       registrationdata = Object.values(data);
 
+      var x = document.getElementsByClassName("plan-signup");
+
       registrationhtml = "";
-      registrationdata.map((data) => {
+      registrationdata.map((data, i) => {
         let html = `<a href="${data.link}" target="_blank" rel="noreferrer" class="btn-system btn-small">Join Us</a>`;
-        registrationhtml += html;
+
+        x[i].innerHTML = html;
 
         return null;
       });
-
-      var x = document.getElementsByClassName("plan-signup");
-      x[0].innerHTML = registrationhtml;
-      x[1].innerHTML = registrationhtml;
-      x[2].innerHTML = registrationhtml;
-      x[3].innerHTML = registrationhtml;
-      x[4].innerHTML = registrationhtml;
     }
   });
 
