@@ -67,7 +67,7 @@ firebase
             <img src="${data.imageUrl}" class="img-responsive2" alt="" style="height:320px; width:400px;" />
           </div>
         </li>`;
-        if (i <= 2) galleryhtml += html;
+        if (gallerydata.length - i - 1 <= 2) galleryhtml += html;
 
         return null;
       });
@@ -91,7 +91,7 @@ firebase
       achievementsdata = Object.values(sortedData);
 
       achievementshtml = "";
-      achievementsdata.map((data) => {
+      achievementsdata.map((data, i) => {
         let html = `<li class="achieve-li col-md-4">
           <div class="portfolio-item">
             <img src="${data.imageUrl}" class="achieve-img" alt="" style="height:250px; width:313px;" />
@@ -101,7 +101,7 @@ firebase
             </div>
           </div>
         </li>`;
-        achievementshtml += html;
+        if (achievementsdata.length - i - 1 <= 2) achievementshtml += html;
 
         return null;
       });
